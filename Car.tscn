@@ -3,7 +3,7 @@
 [ext_resource path="res://Car.gd" type="Script" id=1]
 [ext_resource path="res://assets/art/spritesheet_vehicles.png" type="Texture" id=2]
 
-[sub_resource type="CapsuleShape2D" id=2]
+[sub_resource type="CapsuleShape2D" id=1]
 radius = 31.8601
 height = 54.97
 
@@ -18,8 +18,9 @@ region_rect = Rect2( 363, 390, 66, 120 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 0.48996, 0.22261 )
 current = true
 zoom = Vector2( 2, 2 )
