@@ -203,6 +203,3 @@ __meta__ = {
 
 [node name="Car" parent="." instance=ExtResource( 2 )]
 position = Vector2( 474, 285 )
-
-[node name="Car2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 809.999, 583.999 )
